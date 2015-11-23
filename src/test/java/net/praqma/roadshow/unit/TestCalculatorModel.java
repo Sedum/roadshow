@@ -44,7 +44,7 @@ public class TestCalculatorModel {
     @Test
     public void subtractTest() {
         Number number = model.subtract(new Double(2.5), new Integer(5));
-        assertEquals(-2.5d, number.doubleValue(),0.0000000000d);
+        assertEquals(-3.5d, number.doubleValue(),0.0000000000d);
     }
 
     @Test
