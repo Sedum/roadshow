@@ -23,7 +23,7 @@ public class Calculator extends HttpServlet implements Serializable{
     private static final CalculatorModel model = new CalculatorModelImpl();
 
     public Calculator() {
-        super()
+        super();
         String dummy = new String();
         System.out.println(dummy.valueOf(42));
     }
